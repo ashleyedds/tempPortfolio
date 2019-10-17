@@ -1,5 +1,5 @@
 .main-container {
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
 }
 
@@ -24,6 +24,11 @@
     font-size: 2rem;
 }
 
+.name {
+    font-family: 'Pacifico', cursive;
+    color: #226755;
+}
+
 .sub-greeting {
     font-size: 1.75rem;
 }
@@ -34,4 +39,11 @@
 
 .social {
     max-height: 5vh;
+    fill: #226755;
+}
+
+.about-me {
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 100vw;
 }
