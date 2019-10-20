@@ -16,6 +16,10 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
+.selfie-col {
+    padding-left: 0;
+}
+
 .primary-font {
     font-family: Raleway;
 }
@@ -66,4 +70,59 @@
 .soon-text {
     animation-delay: 1s;
     max-width: 100vw;
+}
+
+@media (min-width: 768px) {
+    .social-row {
+        width: 80%;
+    }
+    .bold-text {
+        margin-left: .5rem;
+    }
+
+    .big-hi {
+        font-size: 3rem;
+    }
+
+    .sub-greeting, .coming-soon {
+        font-size: 2.75rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .social-row {
+        width: 80%;
+    }
+    .bold-text {
+        margin-left: .5rem;
+    }
+
+    .big-hi {
+        font-size: 3rem;
+    }
+
+    .sub-greeting, .coming-soon {
+        font-size: 2.75rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-text {
+        font-size: 1.5rem;
+    }
+    .main-container {
+        height: 50vh;
+    }
+
+    .main-row {
+        height: 55vh;
+    }
+
+    .big-hi {
+        font-size: 2rem;
+    }
+
+    .sub-greeting, .coming-soon {
+        font-size: 1.75rem;
+    }
 }
